@@ -1,0 +1,114 @@
+.products_title {
+  width: 200px;
+  font-size: 26px;
+  margin: 80px 150px;
+}
+
+.product_title {
+  width: 250px;
+}
+
+.products_section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+  color: #000;
+}
+
+.products_images {
+  margin: 80px;
+  display: block;
+}
+
+.products_images img {
+  width: 250px;
+  height: 300px;
+}
+
+.products_cart {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  left: 80%;
+  cursor: pointer;
+}
+
+.products_cart img {
+  width: 50px;
+  height: 50px;
+}
+
+.products .products_cart {
+  display: none;
+}
+
+.products:hover .products_cart {
+  display: block;
+}
+
+.products:hover {
+  transition: 0.5s ease;
+  transform: scale(1.1);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.header {
+  height: 70px;
+  padding-left: 100px;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 1%;
+}
+
+.header_links {
+  float: left;
+  margin: 0px 20px;
+  width: 60px;
+  height: 70px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.active {
+  color: green;
+  border-bottom: 2px solid green;
+  transition: 0.5s ease;
+}
+
+.header_links:hover {
+  color: green;
+}
+
+.icons_cart {
+  position: absolute;
+  top: 2%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.currency {
+  position: absolute;
+  top: 2.5%;
+  right: 8%;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  color: #555;
+  font-size: inherit;
+  overflow: hidden;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
